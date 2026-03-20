@@ -1,4 +1,4 @@
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/hero-bg.png";
 import logo from "@/assets/logo.png";
 
 const HeroSection = () => {
@@ -14,18 +14,21 @@ const HeroSection = () => {
         <img
           src={logo}
           alt="QuartoVinil"
-          className="w-40 sm:w-52 mx-auto mb-6 drop-shadow-2xl animate-in fade-in zoom-in-95 duration-700"
+          className="w-48 sm:w-96 mx-auto mb-6 drop-shadow-2xl animate-in fade-in zoom-in-95 duration-700"
         />
-        <p className="font-body text-primary/80 uppercase tracking-[0.3em] text-sm mb-4 animate-in fade-in slide-in-from-bottom-3 duration-700 delay-150">
+        <p className="font-body text-primary uppercase tracking-[0.3em] text-sm mb-4 text-vinho-shadow animate-in fade-in slide-in-from-bottom-3 duration-700 delay-150">
           Pop & Rock · Anos 80 & 90
         </p>
-        <h1 className="font-display text-7xl sm:text-8xl md:text-9xl text-foreground text-glow leading-[0.9] mb-6 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
-          QuartoVinil
-        </h1>
         <p className="font-body text-lg sm:text-xl text-foreground/70 max-w-xl mx-auto mb-10 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-500">
           Música de excelente qualidade para todos os públicos. Dos clássicos nacionais aos hits internacionais.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-in fade-in slide-in-from-bottom-4 duration-700 delay-700">
+          <a
+            href="#banda"
+            className="inline-flex items-center justify-center px-8 py-3.5 bg-primary text-primary-foreground font-body font-semibold rounded-lg hover:brightness-110 active:scale-[0.97] transition-all duration-200"
+          >
+            A Banda
+          </a>
           <a
             href="#contato"
             className="inline-flex items-center justify-center px-8 py-3.5 bg-primary text-primary-foreground font-body font-semibold rounded-lg hover:brightness-110 active:scale-[0.97] transition-all duration-200"
@@ -34,7 +37,7 @@ const HeroSection = () => {
           </a>
           <a
             href="#repertorio"
-            className="inline-flex items-center justify-center px-8 py-3.5 border border-foreground/20 text-foreground font-body font-semibold rounded-lg hover:bg-foreground/5 active:scale-[0.97] transition-all duration-200"
+            className="inline-flex items-center justify-center px-8 py-3.5 bg-primary text-primary-foreground font-body font-semibold rounded-lg hover:brightness-110 active:scale-[0.97] transition-all duration-200"
           >
             Repertório
           </a>

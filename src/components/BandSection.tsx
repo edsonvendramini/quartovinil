@@ -20,7 +20,7 @@ const BandSection = () => {
       <div className="max-w-5xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           <div>
-            <span className="font-body text-sm uppercase tracking-[0.2em] text-primary mb-4 block">A Banda</span>
+            <span className="font-body text-sm uppercase tracking-[0.2em] text-primary text-vinho-shadow mb-4 block">A Banda</span>
             <h2 className="font-display text-5xl sm:text-6xl text-foreground mb-6 leading-[1]">
               Quatro músicos,<br />uma paixão
             </h2>
@@ -53,7 +53,7 @@ const BandSection = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-4">
                 <h3 className="font-display text-2xl text-foreground">{member.name}</h3>
-                <p className="font-body text-sm text-primary">{member.role}</p>
+                <p className="font-body text-sm text-primary text-vinho-shadow">{member.role}</p>
               </div>
             </div>
           ))}
